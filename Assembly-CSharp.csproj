@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Messaging\MessagingClientBroadcast.cs" />
      <Compile Include="Assets\Scripts\Messaging\MessagingClientReceiver.cs" />
      <Compile Include="Assets\Scripts\Messaging\MessagingManager.cs" />
+     <Compile Include="Assets\Scripts\Navigation\NavigationManager.cs" />
      <Compile Include="Assets\Scripts\Navigation\NavigationPrompt.cs" />
      <Compile Include="Assets\Scripts\Navigation\Sorting.cs" />
  <Reference Include="UnityEngine.Analytics">

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class NavigationPrompt : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D col){
-		if(col.gameObject.CompareTag("Borders")){
-			Debug.Log("Leave town !!!");
+		Debug.Log("OnCollisionEnter2D(" + tag + ") ");
+		if(NavigationManager.CanNavigate(this.tag)){
+			NavigationManager.NavigateTo(this.tag);
 		}
 	}
 }
