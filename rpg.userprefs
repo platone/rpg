@@ -1,16 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Navigation/NavigationPrompt.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.OSXWebPlayer" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PopUpMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/Messaging/MessagingClientReceiver.cs" Line="23" Column="14" />
-      <File FileName="Assets/Scripts/FollowCamera.cs" Line="7" Column="28" />
-      <File FileName="Assets/Scripts/Navigation/NavigationManager.cs" Line="23" Column="4" />
-      <File FileName="Assets/Scripts/Navigation/NavigationPrompt.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/Navigation/Sorting.cs" Line="16" Column="7" />
+      <File FileName="Assets/Scripts/PopUpMenu.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/BattleManager.cs" Line="88" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/vincentpicard/Workspaces/workspace-unity/rpg/Assets/Scripts/GameState.cs" line="13" column="1" />
+      <Breakpoint file="/Users/vincentpicard/Workspaces/workspace-unity/rpg/Assets/Scripts/GameState.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

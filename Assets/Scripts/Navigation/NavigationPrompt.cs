@@ -1,11 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NavigationPrompt : MonoBehaviour {
+
+	public Vector3 startingPosition;
+
 	void OnCollisionEnter2D(Collision2D col){
-		Debug.Log("OnCollisionEnter2D(" + tag + ") ");
 		if(NavigationManager.CanNavigate(this.tag)){
+			GameState.saveLastPosition=false;
+			GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, startingPosition);
+			Debug.Log("attempting to exit via "+ tag);
+			NavigationManager.NavigateTo(this.tag);
+		}
+	}
+	void OnTriggerEnter2D(Collider2D col){
+		if(NavigationManager.CanNavigate(this.tag)){
+			GameState.saveLastPosition=false;
+			GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, startingPosition);
+			Debug.Log("attempting to exit via "+ tag);
 			NavigationManager.NavigateTo(this.tag);
 		}
 	}
