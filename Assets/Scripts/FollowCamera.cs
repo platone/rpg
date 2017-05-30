@@ -12,7 +12,7 @@ public class FollowCamera : MonoBehaviour {
 
 	void Awake(){
 		// check the player reference.
-		player = GameObject.Find("Player").transform;
+		player = GameObject.Find("CharacterRobotBoy").transform;
 		if (player == null) {
 			Debug.LogError ("Player object not found");
 		}

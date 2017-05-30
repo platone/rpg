@@ -20,6 +20,14 @@ public class NavigationManager {
 		{ "Campsite", new Route {
 				RouteDescription = "The campsite",
 				CanTravel = false}},
+		{ "Shop", new Route{RouteDescription="The town shop",
+				CanTravel=true}},
+		{ "Jump", new Route{RouteDescription="The jump area",
+				CanTravel=true}},
+		{ "Parallax", new Route{RouteDescription="The parallax area",
+				CanTravel=true}},
+		{ "Character", new Route{RouteDescription="The character area",
+				CanTravel=true}}
 	};
 
 	public static string GetRouteInfo(string destination)
